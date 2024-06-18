@@ -1,0 +1,25 @@
+{
+  "name": "lab-intro-to-express-response",
+  "version": "1.0.0",
+  "description": "## Getting Started",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
